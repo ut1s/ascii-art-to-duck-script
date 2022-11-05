@@ -40,7 +40,7 @@ operable program or batch file.`` or ``git: command not found`` (although git is
 9. Be happy! Your file is done! Now you'll just have to upload it to your device and run!
 
 ## For Flipper Zero
-The text file's EOL (End iof line) will be on **Windows system** with *CRL* on **Linux** it will be *LF*. I can just guess why is this so but if you're using Windows not any of Linux distribution it will work perfectly. I think it's due to in Python the endings of the lines is with ``\n`` so Flipper Zero can easily handle it. Or there was a big update which I missed and can handle the CRLF EOL files 😅🙁
+The text file's EOL (End iof line) will be on **Windows system** with *CRLF* on **Linux** it will be *LF*. I can just guess why is this so but if you're using Windows not any of Linux distribution it will work perfectly. I think it's due to in Python the endings of the lines is with ``\n`` so Flipper Zero can easily handle it. Or there was a big update which I missed and can handle the CRLF EOL files 😅🙁
 
 By the way I have an own sadly-not-always-updating [GitHub repository](https://github.com/ut1s/flipperzero-firmware) so check it out!
 It has some little changes like my own animation or I added some applications and features to the [official firmware](https://github.com/flipperdevices/flipperzero-firmware) from some unofficial firmware (eg. Unleased, RogueMaster) but without any (big) graphical changes (except my little DJ animation but this is so cute...).
